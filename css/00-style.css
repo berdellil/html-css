@@ -1,0 +1,27 @@
+/*attention les commentaires ne s'écrivent pas de la maineme manière qu'enHTML */
+
+/*les développeur ont l'habitude d'utilisè un reset qui uniformisera la miseen page ceoss navigateur*/
+/*prenez l'habitude de tester votre fichier de style en mettant un background-color:red sur body*/
+body{
+    background-color: red;
+
+}*/
+selecteur{
+         propriètè: valeur;/* le ; est necessaire au fonctionnement du code*/
+         
+}
+.class{/*permet de donner un nom à plusieur balises*/
+    propriètè: valeur; /*on peut mettre plusieurs instruction àla suite*/
+    propiètè: valeur;
+    propriètè valeur;
+
+}
+#id{/*identifiant unique ,on ne donne se nom qu'à une balise,
+    sert aussi pr faire un ancre*/
+    propriètè: valeur;
+
+}
+.class,#id,balise{
+    propriètè: valeur;}
+    .class1  .class2  .class3{/* ici on parle de la class3 qui est ds la class2 lui est ds la class1*/}
+       propriètè: valeur;
