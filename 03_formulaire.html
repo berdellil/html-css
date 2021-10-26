@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <form>
+     <!-- il ya deux manière d'organiqer ses champs-->
+     <label>
+            pseudonyme
+            <input type="texte"  id="pseudo" placeholeder="exemple" required>
+            <!--type précie le type de donnèe récuoerée, id sert à utiliser la donnée avec d'autre language ,placeholder contient 
+            le texte qui apprait ds l'input, required précise aux navigateur que le champs est obligatoir -->
+
+     </label>
+      <br>
+
+
+     <label>    
+           Mot de passe <span title =" le mot de passe peut contenir ...">*</span>
+           
+     </label>
+
+     <input type="password" placeholder ="mot de passe "required>
+     <br>
+
+
+     <label>  Email    </label>      
+     <input  type ="email" placeholder="test@test.test">
+<label for ="photo"> photo</label>
+    <input type="file" id="photo">
+
+    <br>
+<fieldset>  
+    <legend>  choix multiples </legend>
+    <label >  quelle destination choisissez-vous? </label>>
+    <p>
+        <input type="checkbook"  name="reponse1_1">italie 
+        <input type="checkbook"  name="reponse2_1">tunisie
+        <input type="checkbook"  name="reponse3_1">Espagne
+
+    </p>
+
+    <label >qui seront vos accompagnateurs?</label>
+<p>    
+    <input type="radio" name="reponse1_2"> En famille
+    
+    <input type="radio" name="reponse2_2">Ente amis
+    
+    <input type="radio" name="reponse3_2">En solo
+</p>
+
+</fieldset>
+
+<label> commentaires </label>
+<textarea cols="80" rows="8"></textarea>
+
+<input type="submit" value="Envoyer">
+<input type="reset" value="annuler">
+
+</label>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{ 
+    background-color: turquoise;
+    font: size 25px;
+}
+h1{  
+    background-color: violet;
+    color: tomato; 
+}
+p{
+    color: yellow;
+}
+section p:first-child{
+color:blueviolet;/*1er p*/
+
+}
+section p:last-child{
+    color:brown;/*dernier p*/
+}
+section p:nth-child(even){
+    color:burlywood;/*nombre pair*/
+}
+section p:nth-child(odd){
+    color:cornflowerblue;/*impair*/
+}
+section p:nth-child(3),section p:nth-child(10){
+    color: rgb(105, 105, 105);
+}
+.zone1{
+    color: firebrick;
+}
+.zone2{
+    color: midnightblue;
+}
+.lime{
+color:olive;
+}
+.zone3{
+    background-color: orange;
+
+}
+.zone3before{
+    content:"rajouté avant";/*content est oblgatoire*/
+    background-color: plum;
+}
+.zone3::after{ 
+    content:"rajoutè aprés";
+    background-color: rebeccapurple;
+}
+li:nth-of-type(2){
+    background-color: rgb(19, 91, 139);
+}
+.zone4{
+       color :slateblue;
+
+}
+.zone4 span{
+    font-size: 40px;
+}
+span:not(lime){
+    font-weight: bold;/*graisse de la police*/
+}

@@ -1,0 +1,47 @@
+   *{  /* l'etoile ou  asterique qu'on selactionne tout  le document,
+    c'est un selectio universal*/
+
+      text-align:right ;  
+        }
+       
+body{   
+    background-color: blueviolet;
+}
+header{   
+        background-color: rgb(150, 220, 20);
+       color:rgb(139, 0, 0);
+       height: 100px; /*height=hauteur*/
+
+}
+nav{    
+    background-color: darkgreen;
+    height: 60px;
+}
+section{
+    background-color: rgb(0, 77, 128);
+    height: 550px
+}
+article{
+     background-color: orange;
+     height:75px
+}
+fooder{  
+    background-color: orchid;
+    height:66px
+}
+
+nav,footer{  
+     color: powderblue;
+
+}
+
+.jaune{/*j'appel la place avec un point*/
+    background-color: yellowgreen;
+}
+#noir{/*j'appelle l'id avec un dièse*/
+background-color: turquoise;
+color:white;
+text-align:justify;
+font: size 25px;/*font-size=toile de la place*/
+
+}
