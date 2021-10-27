@@ -13,7 +13,7 @@ selecteur{
 .class{/*permet de donner un nom à plusieur balises*/
     propriètè: valeur; /*on peut mettre plusieurs instruction àla suite*/
     propiètè: valeur;
-    propriètè valeur;
+    propriètè: valeur;
 
 }
 #id{/*identifiant unique ,on ne donne se nom qu'à une balise,
@@ -22,6 +22,9 @@ selecteur{
 
 }
 .class,#id,balise{
-    propriètè: valeur;}
-    .class1  .class2  .class3{/* ici on parle de la class3 qui est ds la class2 lui est ds la class1*/}
+    propriètè: valeur;
+}
+
+.class1  .class2  .class3{/* ici on parle de la class3 qui est ds la class2 lui est ds la class1*/}
        propriètè: valeur;
+}
