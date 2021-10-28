@@ -1,0 +1,26 @@
+body{
+    margin: 0;/*en haut , à droit, en bas et à gauche*/
+
+
+}
+.boite{
+    height: 10vh;/*vh=viewport height*/
+    width: 10vw;/* vw=viewport width*/
+    padding:5vh;
+    background-image: url(../img/images.jfif); 
+    background-size: cover;/*étire l'image pour qu'elle rentre dans la balis*/
+    border:5px double rgb(240, 128, 128);
+    margin: 2vh;
+    float:left;/*sffet flottont,ca sort les éléments duflux naturelde la page les places les uns à côté des autre*/
+    transition: margin 0.5s;/*augmente le margin en 0.5s grâce à:hover*/
+
+    
+}
+.boite:hover{/*pseudo-class qui applique un effet au survol de la souris*/
+    margin-top:10vh;
+
+}
+.clear{ 
+    clear:both;/* supprime l'effet des deux côtè*/
+
+}
