@@ -29,12 +29,29 @@ body{
         transition: margin 0.5s;/*augmente le margin en 0.5s grâce à:hover*/
         border-radius: 30px;
 }
-     .carry{
+.carry{
+
+    height: 15vh;/*vh=viewport height*/
+    width: 4vw;/* vw=viewport width*/
+    padding:5vh;
+    background-color: rgba(130, 186, 238, 0.993); 
+
+    background-size: cover;/*étire l'image pour qu'elle rentre dans la balis*/
+    border: 2px double navy;
+    margin: 3vh;
+    float:left;/*sffet flottont,ca sort les éléments duflux naturelde la page les places les uns à côté des autre*/
+    transition: margin 0.5s;/*augmente le margin en 0.5s grâce à:hover*/
+    border-radius: 30px;
+}
+
+
+
+     .carry1{
 
         height: 15vh;/*vh=viewport height*/
         width: 4vw;/* vw=viewport width*/
         padding:5vh;
-        background-color: rgba(130, 186, 238, 0.993); 
+        background-color: brown; 
     
         background-size: cover;/*étire l'image pour qu'elle rentre dans la balis*/
         border: 2px double navy;

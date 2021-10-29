@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+}
+#conteneur{
+     width: 80%;
+     margin: 10px auto;
+     background-color: rgba(255, 0, 0, 0.959);/*cette color n'est plus
+      visible àcause de la surchage*/
+     border: 2px solid black;/*on peut écrire les hexadècimaux 
+     avec 3 caractère si ils sont tous identiques*/
+}
+header,footer{
+    height:  80px;
+    background-color: brown;
+    color : white;
+    text-align: center;
+    padding-top : 6px;
+
+}
+nav{
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 6px;
+    text-align: center;
+}
+section{
+    border:20px solid#7888;
+    background-color:  yellow;
+    height: 500px;
+    text-align: center;
+}
+p{
+    margin: 0;
+}

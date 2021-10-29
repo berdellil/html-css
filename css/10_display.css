@@ -1,0 +1,14 @@
+h1,h2,div,span,section{
+    text-align: center;
+    border:2px  solid orange;
+    background-color:rgb(0, 70, 128);
+}
+.block{
+    display: block;/*on modifie  l'affichage de la balise pour qu'elle 
+    devienne de type block*/
+}
+.inline{
+
+       display:inline;/*on modifie  l'affichage de la balise pour qu'elle 
+    devienne de type block*/
+}
